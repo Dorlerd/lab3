@@ -1,0 +1,9 @@
+{
+  global:
+    FBURTKAxis;
+    FB_URTKAxisHome;
+    FBURTKAxisMovePos;
+    FBURTKCtrl;
+  local:
+    *;
+ };

@@ -1,0 +1,432 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=RobotContr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=283 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                               URTK_Ctrl                               FBURTKCtrl    0 "                                                               *"    0   24    1    0    1    1         
+                                    Grip                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Hardware                            TURTKHardware    0 "                                                               *"    1   24    1    0    0    0         
+                             PWMDuration                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                    PWMX                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    Grip                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                       UnderVoltageError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          VoltageWarning                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        OverVoltageError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    OverTemperatureError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              PWMError01                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          CurrentError01                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      OverCurrentError01                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              PWMError02                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          CurrentError02                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      OverCurrentError02                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              PWMError03                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          CurrentError03                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      OverCurrentError03                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Monitor                             TURTKMonitor    0 "                                                               *"    1   24    1    0    0    0         
+                               PositionX                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                               PositionY                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                               PositionZ                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                LimitX_N                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                LimitX_P                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                LimitY_N                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                LimitY_P                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                LimitZ_N                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                LimitZ_P                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    Grip                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 HomingX                          FB_URTKAxisHome    0 "                                                               *"    2   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 HomingY                          FB_URTKAxisHome    0 "                                                               *"    2   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 HomingZ                          FB_URTKAxisHome    0 "                                                               *"    2   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                HomingOK                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   Error                               TURTKError    0 "                                                               *"    1   24    1    0    0    0         
+                                    Type                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ERR_
+
+                                   Error                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              CLearError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               ConfigIun                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          prevCLearError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Control                             TURTKControl    0 "                                                               *"    1   24    1    0    0    0         
+                              ManualCtrl                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             StartHoming                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  MovPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       X                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                       Y                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                       Z                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                              ManBtnXPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnXNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnYPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnYNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnZPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnZNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    Grip                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   AxisX                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                   AxisY                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                   AxisZ                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                               FBHomingX                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               FBHomingY                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               FBHomingZ                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              FBMovePosX                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    0         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position1                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position2                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   done1                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done2                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done3                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              FBMovePosY                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    0         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position1                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position2                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   done1                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done2                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done3                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              FBMovePosZ                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    0         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position1                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           set_position2                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                   done1                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done2                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   done3                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Ustator                                      INT    3 "                                                               0"    1    3    1   10    0    0         
+                                   State                                     DINT    0 "                                                               0"    1    4    1   10    0    1 e,0,ST_U
+
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 HomingY                          FB_URTKAxisHome    0 "                                                               *"    2   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 HomingZ                          FB_URTKAxisHome    0 "                                                               *"    2   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    3    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                HomingOK                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   Error                               TURTKError    0 "                                                               *"    1   24    1    0    0    0         
+                                    Type                                     DINT    0 "                                                               *"    2    4    1    2    0    0 e,0,ERR_
+                                   Error                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              CLearError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               ConfigIun                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          prevCLearError                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Control                             TURTKControl    0 "                                                               *"    1   24    1    0    0    0         
+                              ManualCtrl                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             StartHoming                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  MovPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       X                                     REAL    0 "                                                               *"    2    8    1    2    0    0         
+                                       Y                                     REAL    0 "                                                               *"    2    8    1    2    0    0         
+                                       Z                                     REAL    0 "                                                               *"    2    8    1    2    0    0         
+                              ManBtnXPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnXNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnYPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnYNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnZPos                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              ManBtnZNeg                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                     End                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,ST_U
+
+                                  enable                                     BOOL    0 "                                                               0"    1    1    1   10    0    0         
+                                   AxisX                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                   AxisY                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                   AxisZ                               FBURTKAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 control                            TURTKAxicCtrl    0 "                                                               *"    2   24    1    0    0    0         
+                                       U                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    ILim                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              ClearError                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 monitor                         TURTKAxisMonitor    0 "                                                               *"    2   24    1    0    0    0         
+                                Position                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Iact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Uact                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   error                           TURTKAxisError    0 "                                                               *"    2   24    1    0    0    0         
+                             OverCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                hardware                        TURTKAxisHardware    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            StatusInputP                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            StatusInputN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                    PulseWidthCurrentPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                         ShowMeanCurrent                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                            CounterLatch                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                               FBHomingX                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               FBHomingY                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               FBHomingZ                          FB_URTKAxisHome    0 "                                                               *"    1   24    1    0    0    0         
+                                  U_fast                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   U_low                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           pos_direction                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  LimitN                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            ResetCounter                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         
+                                   p_dir                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              FBMovePosX                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    1         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         
+                              FBMovePosY                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    1         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         
+                              FBMovePosZ                        FBURTKAxisMovePos    0 "                                                               *"    1   24    1    0    0    1         
+                            set_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            act_position                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             homing_done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       K                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    done                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                       U                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                   State                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,ST_I
+
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1   10    0    0         

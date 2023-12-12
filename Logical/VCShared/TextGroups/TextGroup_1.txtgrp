@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.5.388"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TextGroup_1">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="94993" Value="NO_ERROR "/>
+    <Text ID="94994" Value="UNDERVOLTAGE"/>
+    <Text ID="94995" Value="VOLTAGE_WARNING"/>
+    <Text ID="95089" Value="OVER_VOLTAGE"/>
+    <Text ID="95090" Value="OVER_TEMPERATURE"/>
+    <Text ID="95091" Value="PWM_X"/>
+    <Text ID="95092" Value="CURRENT_X"/>
+    <Text ID="95093" Value="OVER_CURRENT_X"/>
+    <Text ID="95094" Value="PWM_Y"/>
+    <Text ID="95095" Value="CURRENT_Y"/>
+    <Text ID="95096" Value="OVER_CURRENT_Y"/>
+    <Text ID="95097" Value="PWM_Z"/>
+    <Text ID="95098" Value="CURRENT_Z"/>
+    <Text ID="95099" Value="OVERCURRENT_Z"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="94993" Value=""/>
+    <Text ID="94994" Value=""/>
+    <Text ID="94995" Value=""/>
+    <Text ID="95089" Value=""/>
+    <Text ID="95090" Value=""/>
+    <Text ID="95091" Value=""/>
+    <Text ID="95092" Value=""/>
+    <Text ID="95093" Value=""/>
+    <Text ID="95094" Value=""/>
+    <Text ID="95095" Value=""/>
+    <Text ID="95096" Value=""/>
+    <Text ID="95097" Value=""/>
+    <Text ID="95098" Value=""/>
+    <Text ID="95099" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="94993" Value="0"/>
+    <Index ID="94994" Value="1"/>
+    <Index ID="94995" Value="2"/>
+    <Index ID="95089" Value="3"/>
+    <Index ID="95090" Value="4"/>
+    <Index ID="95091" Value="5"/>
+    <Index ID="95092" Value="6"/>
+    <Index ID="95093" Value="7"/>
+    <Index ID="95094" Value="8"/>
+    <Index ID="95095" Value="9"/>
+    <Index ID="95096" Value="10"/>
+    <Index ID="95097" Value="11"/>
+    <Index ID="95098" Value="12"/>
+    <Index ID="95099" Value="13"/>
+  </IndexMap>
+</TextGroup>

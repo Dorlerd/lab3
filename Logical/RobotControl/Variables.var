@@ -1,0 +1,21 @@
+VAR
+	speed : REAL;
+	pos_new : REAL;
+	pos_last : REAL;
+	led4 : BOOL;
+	led3 : BOOL;
+	led2 : BOOL;
+	led1 : BOOL;
+	URTK_Ctrl : FBURTKCtrl;
+	BtnS : BOOL;
+	PageNum : INT;
+	State_led : TState_led;
+	cnt : INT;
+	flag : BOOL := FALSE;
+	I_ust : REAL;
+	pid : FB_Controller;
+	homing : BOOL;
+	pos_ust : REAL;
+	pd : FB_PD;
+	integ : INT;
+END_VAR

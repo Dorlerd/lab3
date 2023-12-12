@@ -1,0 +1,35 @@
+
+
+Fri Jul 06 12:30:01 2018
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Fri Jul 06 12:30:01 2018
+COMMAND_COLDSTART
+InstanceName : 01d4150bea354450
+
+WorkingPath :
+C:\projects\praktika_urtk\Temp\Simulation\Config1\4PP065_0571_P74\
+
+
+
+Fri Jul 06 12:30:01 2018
+COMMAND_COLDSTART
+Version : J4.25
+
+
+
+Fri Jul 06 12:30:04 2018
+COMMAND_TERMINATE
+
+
+Fri Jul 06 12:30:05 2018
+
+
+Fri Jul 06 12:30:05 2018
+COMMAND_TERMINATE
+
+
+Fri Jul 06 12:30:05 2018

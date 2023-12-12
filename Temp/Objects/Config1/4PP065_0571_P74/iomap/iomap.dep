@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/logical/libraries/urtk_lib/types.typ
+$(AS_PROJECT_PATH)/logical/libraries/urtk_lib/urtk_lib.fun
+$(AS_PROJECT_PATH)/logical/robotcontrol/variables.var

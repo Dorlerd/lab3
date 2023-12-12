@@ -1,0 +1,5 @@
+VAR
+	U_fast : REAL;
+	BntC : BOOL;
+	enable : BOOL;
+END_VAR
